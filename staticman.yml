@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["name", "email", "website", "comment"]
+  allowedFields: ["name", "comment"]
   branch: "master"
   commitMessage: "New comment in {options.slug}"
   filename: "comment-{@timestamp}"
@@ -12,6 +12,6 @@ comments:
   moderation: true
   name: "JVBlog"
   path: "{options.slug}"
-  requiredFields: ["name", "email", "comment"]
+  requiredFields: ["name", "comment"]
   transforms:
     email: md5
