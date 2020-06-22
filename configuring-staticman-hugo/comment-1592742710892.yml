@@ -1,4 +1,4 @@
 _id: 2e663d50-b3bb-11ea-9e8c-0903d03c6c3b
 name: Onion Samson
-comment: "Hi Julio,\r\n\r\nThanks to a friend (@koralatov), I've been able to generate and retrieve key.pem for step 6:\r\n\r\n> openssl genrsa --out key.pem; cat key.pem\r\n\r\nThen, \"save session\" at bottom-right of the console."
+comment: "Hi Julio,\r\n\r\nThanks to a friend (@koralatov), I've been able to generate and retrieve key.pem for step 6:\r\n\r\n`openssl genrsa --out key.pem; cat key.pem`\r\n\r\nThen, \"save session\" at bottom-right of the console."
 date: '2020-06-21T12:31:50.889Z'
